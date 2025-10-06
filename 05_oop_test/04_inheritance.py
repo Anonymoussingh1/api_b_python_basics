@@ -7,8 +7,10 @@ class Car():
     def stop_engine(self):
         print("Normal Engine Started")
         
-
+# static method
 print(Car.start_engine())
+
+# not static method
 # print(Car.stop_engine())
 
 car = Car()
